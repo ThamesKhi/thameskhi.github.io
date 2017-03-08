@@ -1,11 +1,10 @@
 /* Media Queries to manage size and styles */
 
-<<<<<<< HEAD
 body {
     color: saddlebrown;
 }
 
-=======
+
 * {
     box-sizing: border-box;
 }
@@ -33,7 +32,6 @@ p {
 
 /* Simple Responsive Framework. */
 
->>>>>>> 84fcae1e39036674f2995739a30bc9eaf415919a
 .row {
     width: 100%;
 }
@@ -43,7 +41,7 @@ p {
 
 @media (min-width: 992px) {
     /* Test */
-<<<<<<< HEAD
+
     .dp {
         background-color: gray;
     }
@@ -53,7 +51,7 @@ p {
         width: 25%;
     }
     
-=======
+
     .col-dp {
         background-color: gray;
         float: left;
@@ -63,7 +61,6 @@ p {
         border: 2px solid red;
         width: 33.33%;
     }
->>>>>>> 84fcae1e39036674f2995739a30bc9eaf415919a
 }
 
 
@@ -71,7 +68,6 @@ p {
 
 @media (min-width: 768px) and (max-width: 991px) {
     /* Test */
-<<<<<<< HEAD
     .tb {
         background-color: yellow;
     }
@@ -79,8 +75,8 @@ p {
        
         border: 3px solid blue;
         width: 33%;
-=======
-    .col-tb,
+
+    }
     .col-tb-1 {
         background-color: yellow;
         float: left;
@@ -95,7 +91,6 @@ p {
         
         border: 3px solid blue;
         width: 100%;
->>>>>>> 84fcae1e39036674f2995739a30bc9eaf415919a
     }
 }
 
@@ -104,7 +99,6 @@ p {
 
 @media (max-width: 767px) {
     /* Test */
-<<<<<<< HEAD
     .mo {
         background-color: red;
     }
@@ -112,12 +106,12 @@ p {
         
         border: 5px solid black;
         width: 50%;
-=======
+
     .col-mo {
         float: left;
         border: 1px solid black;
         width: 100%;
         background-color: gray;
->>>>>>> 84fcae1e39036674f2995739a30bc9eaf415919a
+
     }
 }
