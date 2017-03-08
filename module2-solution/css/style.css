@@ -1,9 +1,4 @@
-/* Media Queries to manage size and styles */
-
-body {
-    color: saddlebrown;
-}
-
+/* Media Queries to manage size and styles 08-03 */
 
 * {
     box-sizing: border-box;
@@ -41,17 +36,6 @@ p {
 
 @media (min-width: 992px) {
     /* Test */
-
-    .dp {
-        background-color: gray;
-    }
-    .col-dp {
-       
-        border: 2px solid blue;
-        width: 25%;
-    }
-    
-
     .col-dp {
         background-color: gray;
         float: left;
@@ -68,15 +52,7 @@ p {
 
 @media (min-width: 768px) and (max-width: 991px) {
     /* Test */
-    .tb {
-        background-color: yellow;
-    }
-    .col-tb {
-       
-        border: 3px solid blue;
-        width: 33%;
-
-    }
+    .col-tb,
     .col-tb-1 {
         background-color: yellow;
         float: left;
@@ -99,19 +75,10 @@ p {
 
 @media (max-width: 767px) {
     /* Test */
-    .mo {
-        background-color: red;
-    }
-    .col-mo {
-        
-        border: 5px solid black;
-        width: 50%;
-
     .col-mo {
         float: left;
         border: 1px solid black;
         width: 100%;
         background-color: gray;
-
     }
 }
