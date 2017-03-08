@@ -1,9 +1,39 @@
 /* Media Queries to manage size and styles */
 
+<<<<<<< HEAD
 body {
     color: saddlebrown;
 }
 
+=======
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-family: georgia;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+p {
+    border: 1px solid black;
+    background-color: #d9caca;
+    width: 95%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: white;
+}
+
+
+/* Simple Responsive Framework. */
+
+>>>>>>> 84fcae1e39036674f2995739a30bc9eaf415919a
 .row {
     width: 100%;
 }
@@ -13,6 +43,7 @@ body {
 
 @media (min-width: 992px) {
     /* Test */
+<<<<<<< HEAD
     .dp {
         background-color: gray;
     }
@@ -22,6 +53,17 @@ body {
         width: 25%;
     }
     
+=======
+    .col-dp {
+        background-color: gray;
+        float: left;
+    }
+    .col-dp {
+       
+        border: 2px solid red;
+        width: 33.33%;
+    }
+>>>>>>> 84fcae1e39036674f2995739a30bc9eaf415919a
 }
 
 
@@ -29,6 +71,7 @@ body {
 
 @media (min-width: 768px) and (max-width: 991px) {
     /* Test */
+<<<<<<< HEAD
     .tb {
         background-color: yellow;
     }
@@ -36,6 +79,23 @@ body {
        
         border: 3px solid blue;
         width: 33%;
+=======
+    .col-tb,
+    .col-tb-1 {
+        background-color: yellow;
+        float: left;
+    }
+    .col-tb {
+        /* float: left; */
+        
+        border: 3px solid blue;
+        width: 50%;
+    }
+    .col-tb-1 {
+        
+        border: 3px solid blue;
+        width: 100%;
+>>>>>>> 84fcae1e39036674f2995739a30bc9eaf415919a
     }
 }
 
@@ -44,6 +104,7 @@ body {
 
 @media (max-width: 767px) {
     /* Test */
+<<<<<<< HEAD
     .mo {
         background-color: red;
     }
@@ -51,5 +112,12 @@ body {
         
         border: 5px solid black;
         width: 50%;
+=======
+    .col-mo {
+        float: left;
+        border: 1px solid black;
+        width: 100%;
+        background-color: gray;
+>>>>>>> 84fcae1e39036674f2995739a30bc9eaf415919a
     }
 }
