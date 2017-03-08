@@ -1,0 +1,55 @@
+/* Media Queries to manage size and styles */
+
+body {
+    color: saddlebrown;
+}
+
+.row {
+    width: 100%;
+}
+
+
+/********** Desktop **********/
+
+@media (min-width: 992px) {
+    /* Test */
+    .dp {
+        background-color: gray;
+    }
+    .col-dp {
+       
+        border: 2px solid blue;
+        width: 25%;
+    }
+    
+}
+
+
+/********** Tablet devices **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Test */
+    .tb {
+        background-color: yellow;
+    }
+    .col-tb {
+       
+        border: 3px solid blue;
+        width: 33%;
+    }
+}
+
+
+/********** Mobile devices **********/
+
+@media (max-width: 767px) {
+    /* Test */
+    .mo {
+        background-color: red;
+    }
+    .col-mo {
+        
+        border: 5px solid black;
+        width: 50%;
+    }
+}
