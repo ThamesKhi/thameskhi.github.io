@@ -11,7 +11,7 @@ h1 {
     font-family: georgia;
     text-align: center;
     font-size: 2.1em;
-}
+    }
 
 body {
     background-color: blanchedalmond;
@@ -23,6 +23,7 @@ span {
     padding-left: 10px;
     padding-right: 10px;
     color: yellow;
+    font-weight:600;
 }
 
 p {
