@@ -1,0 +1,151 @@
+/* Media Queries to manage size and styles 08-03 */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin-right: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: georgia;
+    text-align: center;
+    font-size: 2.1em;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+span {
+    background-color: rgba(71, 149, 217, 0.3);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: yellow;
+    font-weight: 600;
+    display: table;
+    margin: 0 auto;
+}
+
+p.menu {
+    /*border: 1px solid black;*/
+    background-color: gray;
+    width: 95%;
+    height: 179px;
+    margin-right: auto;
+    margin-left: 5px;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: white;
+    padding-top: 3px;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+#med {
+    height: 150px;
+}
+
+
+/* Simple Responsive Framework. */
+
+.row {
+    width: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/*color adjustments to the title box*/
+
+#sushi {
+    background-color: rgba(245, 14, 14, 0.3);
+}
+
+#beef {
+    background-color: rgba(222, 184, 135, 0.3);
+}
+
+
+/********** Desktop **********/
+
+@media (min-width: 992px) {
+    /* Test */
+    .col-dp {
+        background-color: gray;
+        float: left;
+        margin: 5px;
+    }
+    .col-dp {
+        border: 1px solid red;
+        width: 32%;
+    }
+}
+
+
+/********** Tablet devices **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Test */
+    p.menu {
+        height: 140px;
+    }
+    span {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .col-tb,
+    .col-tb-1 {
+        background-color: gray;
+        float: left;
+        margin: 5px;
+    }
+    .col-tb {
+        /* float: left; */
+        border: 1px solid blue;
+        width: 48.5%;
+    }
+    .col-tb-1 {
+        border: 1px solid blue;
+        width: 98.1%;
+    }
+    .row {
+        width: 98%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+/********** Mobile devices **********/
+
+@media (max-width: 767px) {
+    /* Test */
+    span {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    p.menu {
+        font-family: serif;
+        height: 100px;
+    }
+    .col-mo {
+        float: left;
+        border: 1px solid black;
+        width: 97%;
+        background-color: gray;
+        margin: 1%;
+    }
+    .row {
+        width: 97%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
